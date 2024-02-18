@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Websocket</title>
+    
+</head>
+<body>
+    <h1>Socket client</h1>
+    
+    <p>Server Status: 
+        <span id="lblOnline" style="color: green;">Online</span>
+        <span id="lblOffline" style="color: red;">Offline</span>
+    </p>
+
+
+    <input type="text" id="txtMensaje" class="form-control">
+
+    <button id="btnEnviar">Enviar</button>
+    
+    <script src="./socket.io/socket.io.js"></script>
+    <script src="js/socket-client.js"></script>
+</body>
+</html>
